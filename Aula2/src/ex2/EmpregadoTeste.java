@@ -14,7 +14,7 @@ public class EmpregadoTeste {
     
     p.setNome(JOptionPane.showInputDialog(null, "Digite o nome: ","FUNCIONÁRIO",JOptionPane.PLAIN_MESSAGE));
     p.setIdade(Integer.parseInt(JOptionPane.showInputDialog(null, "Digite a idade: ","FUNCIONÁRIO",JOptionPane.PLAIN_MESSAGE)));
-    p.setAltura(Float.parseFloat(JOptionPane.showInputDialog(null, "Digite a altura: ","FUNCIONÁRIO",JOptionPane.PLAIN_MESSAGE)));
+    p.setAltura(Double.parseDouble(JOptionPane.showInputDialog(null, "Digite a altura: ","FUNCIONÁRIO",JOptionPane.PLAIN_MESSAGE)));
     p.setSexo(JOptionPane.showInputDialog(null, "Digite o sexo: ","FUNCIONÁRIO",JOptionPane.PLAIN_MESSAGE));
     p.setSalario(Float.parseFloat(JOptionPane.showInputDialog(null, "Digite o salario: ","FUNCIONÁRIO",JOptionPane.PLAIN_MESSAGE)));
     
